@@ -1,9 +1,12 @@
 import React from 'react';
 import Layout from './Hoc/Layout';
+import { Switch, Route } from 'react-router-dom';
 const Routes = props => {
   return (
     <div>
-      <Layout>second line</Layout>
+      <Layout>
+        <Switch>asd</Switch>
+      </Layout>
     </div>
   );
 };
